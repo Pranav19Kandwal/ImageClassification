@@ -1,8 +1,10 @@
-Installing Dependencis
+INSTALLING DEPENDENCIES
 
 git clone https://github.com/Pranav19Kandwal/ImageClassification
 
 Ensure that you have Python 3.x installed. You can check your Python version by running:
 python --version
+
 pip install opencv-python numpy matplotlib scikit-image tensorflow optuna scikit-learn
 
+Datset link: https://www.kaggle.com/datasets/mahmoudreda55/satellite-image-classification
