@@ -1,6 +1,6 @@
 INSTALLING DEPENDENCIES
 
-git clone https://github.com/Pranav19Kandwal/ImageClassification
+git clone https://github.com/Pranav19Kandwal/ImageClassification.git
 
 Ensure that you have Python 3.x installed. You can check your Python version by running:
 python --version
