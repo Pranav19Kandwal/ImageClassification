@@ -8,3 +8,14 @@ python --version
 pip install opencv-python numpy matplotlib scikit-image tensorflow optuna scikit-learn
 
 Datset link: https://www.kaggle.com/datasets/mahmoudreda55/satellite-image-classification
+
+Model Comparison
+
+1) {'num_layers': 2, 'neurons': [32, 64], 'activations': ['relu', 'softmax'], 'optimizer': 'adam', 'batch_size': 16} [estimtated by hyperparameter tuning]
+accuracy: 0.8958579897880554
+
+2) {'neurons_1': 16, 'neurons_2': 16, 'neurons_3': 8, 'activations_1': 'elu', 'activations_2': 'leakyrelu', 'activations_3': 'softmax', 'optimizer': 'adam', 'batch_size': 16} [estimated by hyperparameter tuning using optuna]
+accuarcy: 0.939644992351532
+
+3) ResNet-18
+accuracy: 0.8745561838150024
